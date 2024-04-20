@@ -13,18 +13,18 @@
       padding: 0;
     }
 
-    /* Header Styling */
+    /* Header Styling with Improved Contrast */
     header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background-color: #3498db;
-      color: #fff;
+      background-color: #3498db; /* Maintains blue background */
+      color: #000; /* Black text for higher contrast */
     }
 
     header a {
-      color: #fff;
+      color: #000; /* Black text for higher contrast */
       text-decoration: none;
       margin: 0 1rem;
     }
@@ -35,6 +35,7 @@
     }
 
     .search-form label {
+      color: #000; /* Black text for higher contrast */
       margin-right: 0.5rem;
     }
 
@@ -54,9 +55,14 @@
       cursor: pointer;
     }
 
-    /* Main Body Styling */
+    /* Main Body Styling with Improved Contrast */
     main {
       padding: 2rem;
+    }
+
+    h2,
+    p {
+      color: #333; /* Darker text color for better contrast */
     }
 
     .image-container {
@@ -84,12 +90,6 @@
       padding: 1rem;
       background-color: #34495e;
       color: #fff;
-    }
-
-    /* Increased Contrast for Text */
-    h2,
-    p {
-      color: #333; /* Darker text color for better contrast */
     }
   </style>
 </head>
@@ -123,6 +123,3 @@
         <img src="https://ftw.usatoday.com/gallery/horizon-forbidden-west-best-pictures-photo-mode-gallery" alt="Horizon Forbidden West">
         <p class="image-description">Horizon Forbidden West</p>
       </div>
-      <div>
-        <img src="https://wallpapers.com/elden-ring-pictures" alt="Elden Ring">
-        <p class="image-description">
